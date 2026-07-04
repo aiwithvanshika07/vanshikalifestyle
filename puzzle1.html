@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puzzle 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ai-bg"></div>
+
+  <main class="puzzle-page">
+    <div class="puzzle-card">
+      <div class="top-row">
+        <span>Puzzle 1 / 4</span>
+        <span id="scoreBox">Score: 0</span>
+      </div>
+
+      <h1>Sound Logic Puzzle</h1>
+
+      <div class="thinking-box">
+        <div class="brain-dot"></div>
+        <p>AI is analyzing the riddle...</p>
+      </div>
+
+      <p class="question">
+        I speak without a mouth and hear without ears.  
+        I have nobody, but I come alive with sound.  
+        What am I?
+      </p>
+
+      <input type="text" id="answerInput" placeholder="Type your answer here" />
+
+      <button class="main-btn" onclick="checkAnswer(1)">Submit Answer</button>
+
+      <p id="resultMsg" class="result-msg"></p>
+
+      <div class="nav-buttons">
+        <a href="index.html">Home</a>
+        <a href="puzzle2.html">Next Puzzle</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
