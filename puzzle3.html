@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puzzle 3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ai-bg"></div>
+
+  <main class="puzzle-page">
+    <div class="puzzle-card">
+      <div class="top-row">
+        <span>Puzzle 3 / 4</span>
+        <span id="scoreBox">Score: 0</span>
+      </div>
+
+      <h1>AI Word Decode</h1>
+
+      <div class="thinking-box">
+        <div class="brain-dot"></div>
+        <p>AI is decoding the hidden word...</p>
+      </div>
+
+      <p class="question">
+        Decode this word:
+        <br><br>
+        <strong>GVGSVI</strong>
+        <br><br>
+        Hint: Each letter is replaced by its opposite letter.
+        <br>
+        A = Z, B = Y, C = X...
+      </p>
+
+      <input type="text" id="answerInput" placeholder="Type your answer here" />
+
+      <button class="main-btn" onclick="checkAnswer(3)">Submit Answer</button>
+
+      <p id="resultMsg" class="result-msg"></p>
+
+      <div class="nav-buttons">
+        <a href="puzzle2.html">Previous</a>
+        <a href="puzzle4.html">Next Puzzle</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+          </html>
