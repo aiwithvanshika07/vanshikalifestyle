@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Score</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ai-bg"></div>
+
+  <main class="score-page">
+    <div class="score-card">
+      <div class="ai-chip">FINAL AI REPORT</div>
+
+      <h1>Your Final Score</h1>
+
+      <div class="circle-score">
+        <span id="finalScore">0</span>
+        <small>/ 100</small>
+      </div>
+
+      <h2 id="scoreTitle">Calculating...</h2>
+      <p id="scoreMessage">AI is preparing your result...</p>
+
+      <div class="answer-box">
+        <h3>Correct Answers</h3>
+        <p><strong>Puzzle 1:</strong> echo</p>
+        <p><strong>Puzzle 2:</strong> 42</p>
+        <p><strong>Puzzle 3:</strong> future</p>
+        <p><strong>Puzzle 4:</strong> 64</p>
+      </div>
+
+      <div class="nav-buttons">
+        <a href="index.html" onclick="resetGame()">Play Again</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
